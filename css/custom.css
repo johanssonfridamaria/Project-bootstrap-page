@@ -1,0 +1,79 @@
+/* font-family: 'Tangerine', cursive; */
+
+:root{
+    --lightpink:#f0dddc;
+    --pink:#d9aeaa;
+    --yellow:#c79b2c;
+    --rust:#A04B28;
+    --darkblue:#2B2E39;
+    --green:#adbdb0;
+}
+
+
+body {
+    font-family: 'Cabin', sans-serif;
+    color:var(--darkblue);
+    background-color: var(--pink);
+}
+
+.bg-yellow {
+    background: var(--yellow);
+}
+
+.bg-lightpink {
+    background-color: var(--lightpink);
+}
+
+.bg-pink {
+    background-color: var(--pink);
+}
+
+.bg-rust {
+    background-color: var(--rust);
+}
+
+.bg-darkblue {
+    background-color: var(--darkblue);
+}
+
+.bg-green {
+    background-color: var(--green);
+}
+
+.logo {
+    font-family: 'Tangerine', cursive;
+    color: var(--rust) !important;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.navbar-toggler{
+    border: transparent;
+}
+
+.nav-link{
+
+}
+
+
+
+.jumbotron {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/juliet-furst-MISKObMT6TA-unsplash.jpg");
+    height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-radius: 0;
+    color: white;
+}
+
+.btn-custom  {
+    background-color: var(--lightpink);
+    border-radius: 0;
+    color: var(--rust);
+}
+
+.icon{
+color: var(--pink);
+}
