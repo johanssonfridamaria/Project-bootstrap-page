@@ -1,18 +1,15 @@
-/* font-family: 'Tangerine', cursive; */
-
-:root{
-    --lightpink:#f0dddc;
-    --pink:#d9aeaa;
-    --yellow:#c79b2c;
-    --rust:#A04B28;
-    --darkblue:#2B2E39;
-    --green:#adbdb0;
+:root {
+    --lightpink: #f0dddc;
+    --pink: #d9aeaa;
+    --yellow: #c79b2c;
+    --rust: #A04B28;
+    --darkblue: #2B2E39;
+    --green: #adbdb0;
 }
-
 
 body {
     font-family: 'Cabin', sans-serif;
-    color:var(--darkblue);
+    color: var(--darkblue);
     background-color: var(--pink);
 }
 
@@ -47,33 +44,71 @@ body {
     font-weight: 600;
 }
 
-.navbar-toggler{
+.navbar-toggler {
     border: transparent;
 }
 
-.nav-link{
-
-}
-
-
-
-.jumbotron {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/juliet-furst-MISKObMT6TA-unsplash.jpg");
-    height: 50vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    border-radius: 0;
-    color: white;
-}
-
-.btn-custom  {
+.btn-custom {
     background-color: var(--lightpink);
     border-radius: 0;
     color: var(--rust);
 }
 
-.icon{
-color: var(--pink);
+.btn-up {
+    background-color: var(--pink);
+    border-radius: 0;
+}
+
+.icon {
+    color: var(--pink);
+}
+
+.footer-link {
+    color: var(--lightpink);
+}
+
+.footer-link:hover {
+    text-decoration: none;
+    color: var(--pink);
+}
+
+footer h5 {
+    color: var(--lightpink);
+    font-size: medium;
+}
+
+footer li, p {
+    color: var(--lightpink);
+}
+
+.bi-arrow-up {
+    color: var(--rust);
+}
+
+/* .image {
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.image-1{
+    background-image: url(/img/tom-crew-NLcLjLNUJbY-unsplash.jpg);
+}
+
+.image-2{
+    background-image: url(/img/tom-crew-oiZAQvxTcYQ-unsplash.jpg);
+}
+.image-3{
+    background-image: url(/img/tom-crew-YA2E3d7a9Wo-unsplash.jpg);
+}
+
+.image-5{
+    background-image: url(/img/taylor-heery-ZSgWcW70cTs-unsplash.jpg);
+    height: 50vh;
+} */
+
+.about p{
+    color: var(--pink);
 }

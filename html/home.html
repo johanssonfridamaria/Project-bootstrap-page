@@ -18,7 +18,7 @@
 
     <!-- Header starts -->
 
-    <nav class="navbar navbar-expand-sm navbar-dark bg-pink">
+    <nav class="container navbar navbar-expand-sm navbar-dark bg-pink" id="top">
         <a class="navbar-brand logo" href="home.html">CERAMICS</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
             aria-controls="#navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,15 +42,21 @@
 
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="/img/tom-crew-NLcLjLNUJbY-unsplash.jpg" class="d-block w-100 h-auto"
+                <!-- <div class="image image-1">
+                </div> -->
+                <img src="/img/tom-crew-NLcLjLNUJbY-unsplash.jpg" class="d-block w-100"
                     alt="Pottering in our studio">
             </div>
             <div class="carousel-item">
-                <img src="/img/tom-crew-oiZAQvxTcYQ-unsplash.jpg" class="d-block w-100 h-auto"
+                <!-- <div class="image image-2">
+                </div> -->
+                <img src="/img/tom-crew-oiZAQvxTcYQ-unsplash.jpg" class="d-block w-100"
                     alt="Pottering in our studio">
             </div>
             <div class="carousel-item">
-                <img src="/img/tom-crew-YA2E3d7a9Wo-unsplash.jpg" class="d-block w-100 h-auto"
+                <!-- <div class="image image-3">
+                </div> -->
+                <img src="/img/tom-crew-YA2E3d7a9Wo-unsplash.jpg" class="d-block w-100"
                     alt="Pottering in our studio">
             </div>
         </div>
@@ -76,7 +82,7 @@
     </div>
     <!-- Summary About section ends -->
 
-    <div>
+    <div class="image image-5">
         <img src="/img/taylor-heery-ZSgWcW70cTs-unsplash.jpg" class="d-block w-100" alt="Pottering in our studio">
     </div>
 
@@ -89,49 +95,48 @@
     </div>
 
     <!-- Get connected ends -->
+    <!-- Footer starts -->
 
     <footer class="bg-darkblue">
-        <div class="container pt-4 ">
+        <div class="container pt-4 pb-4">
             <div class="row">
-                <div class="col-sm-4">
+                <div class="col-6 pb-2 pl-4">
+                    <h5 class="">Visit our studio</h5>
                     <ul class="list-unstyled">
-                        <li><a class="" href="/html/home.html">Home</a></li>
-                        <li><a class="" href="/html/about.html">About</a></li>
-                        <li><a class="" href="/html/contact.html">Contact</a></li>
+                        <li class="small">Ceramics</li>
+                        <li class="small">Lorem street 8</li>
+                        <li class="small">Stockholm</li>
+                        <li class="small">ceramics@website.com</li>
+                        <li class="small">+46123456789</li>
                     </ul>
                 </div>
-                <div class="col-sm-4">
-                    <h5>Visit our studio</h5>
+                <div class="col-6 pb-2 d-flex flex-column align-items-end pr-4">
+                    <h5 class="">Follow us</h5>
                     <ul class="list-unstyled">
-                        <li class="">Ceramics</li>
-                        <li class="">Lorem street 8</li>
-                        <li class="">Stockholm</li>
-                        <li class="">ceramics@website.com</li>
-                        <li class="">+46123456789</li>
+                        <li><a class="footer-link small" href="#"><i
+                                    class="fab fa-facebook-f icon pr-2"></i>Facebook</a></li>
+                        <li><a class="footer-link small" href="#"><i
+                                    class="fab fa-instagram icon pr-2"></i>Instagram</a></li>
                     </ul>
                 </div>
-
-                <div class="col-sm-4">
-                    <h5>Follow us</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="#"><i class="fab fa-facebook-f icon pr-2"></i>Facebook</a></li>
-                        <li><a href="#"><i class="fab fa-instagram icon pr-2"></i>Instagram</a></li>
-                    </ul>
-                </div>
-                <div class="row-sm-12 text-center">
-                    <p>© Frida Johansson Student project 2020</p>
-                    <button class="btn">
-                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-up" fill="currentColor"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd"
-                                d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z" />
-                        </svg>
+                <div class="col-12 text-center pt-2">
+                    <button class="btn btn-up">
+                        <a href="#top">
+                            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-up" fill="currentColor"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z" />
+                            </svg>
+                        </a>
                     </button>
+                    <p class="small pt-4">© Frida Johansson Student project 2020</p>
                 </div>
 
             </div>
         </div>
     </footer>
+
+    <!-- Footer ends -->
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
