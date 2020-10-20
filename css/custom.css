@@ -40,7 +40,7 @@ body {
 .logo {
     font-family: 'Tangerine', cursive;
     color: var(--rust) !important;
-    font-size: 3rem;
+    font-size: 2.5em;
     font-weight: 600;
 }
 
@@ -54,9 +54,10 @@ body {
     color: var(--rust);
 }
 
-.btn-up {
+.btn-pink {
     background-color: var(--pink);
     border-radius: 0;
+    color: var(--rust);
 }
 
 .icon {
@@ -109,6 +110,12 @@ footer li, p {
     height: 50vh;
 } */
 
-.about p{
+.about, p{
     color: var(--pink);
 }
+
+.contact{}
+
+
+
+
