@@ -91,30 +91,6 @@ footer li, p {
     color: var(--rust);
 }
 
-/* .image {
-    height: 100vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
-
-.image-1{
-    background-image: url(/img/tom-crew-NLcLjLNUJbY-unsplash.jpg);
-}
-
-.image-2{
-    background-image: url(/img/tom-crew-oiZAQvxTcYQ-unsplash.jpg);
-}
-.image-3{
-    background-image: url(/img/tom-crew-YA2E3d7a9Wo-unsplash.jpg);
-}
-
-.image-5{
-    background-image: url(/img/taylor-heery-ZSgWcW70cTs-unsplash.jpg);
-    height: 50vh;
-} */
-
 .about p{
     color: var(--pink);
 }
