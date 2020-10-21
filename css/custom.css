@@ -118,3 +118,28 @@ footer li, p {
 .about p{
     color: var(--pink);
 }
+
+.contact h3, .contact-form{
+    color: var(--pink);
+}
+
+.input{
+    border: none !important;
+    border-bottom: 1px solid var(--rust) !important;
+    background-color: transparent;
+    border-radius: 0 !important;
+}
+
+.input:focus{
+    border: 1px solid transparent !important;
+    background-color: transparent !important;
+    box-shadow: none;
+}
+
+.input-text{
+    border: 1px solid var(--rust) !important;
+}
+
+/* form{
+    color: var(--pink);
+} */
