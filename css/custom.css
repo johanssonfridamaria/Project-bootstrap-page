@@ -119,15 +119,22 @@ footer li, p {
     color: var(--pink);
 }
 
-.contact h3, .contact-form{
+.contact h3, h4,li {
+    color: var(--rust);
+}
+
+.contact-form{
     color: var(--pink);
 }
 
 .input{
     border: none !important;
-    border-bottom: 1px solid var(--rust) !important;
+    border-bottom: 1px solid var(--pink) !important;
     background-color: transparent;
     border-radius: 0 !important;
+}
+.input-text{
+    border: 1px solid var(--pink) !important;
 }
 
 .input:focus{
@@ -136,10 +143,10 @@ footer li, p {
     box-shadow: none;
 }
 
-.input-text{
-    border: 1px solid var(--rust) !important;
+.input:focus-within{
+    border-bottom: 1px solid var(--pink) !important;
 }
 
-/* form{
-    color: var(--pink);
-} */
+.input-text:focus-within{
+    border: 1px solid var(--pink) !important;
+}
