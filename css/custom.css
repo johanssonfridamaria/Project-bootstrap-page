@@ -60,6 +60,11 @@ body {
     color: var(--rust);
 }
 
+.btn a{
+    color: var(--rust);
+    text-decoration: none;
+}
+
 .icon {
     color: var(--pink);
 }
@@ -110,9 +115,6 @@ footer li, p {
     height: 50vh;
 } */
 
-.about, p{
+.about p{
     color: var(--pink);
 }
-
-
-
