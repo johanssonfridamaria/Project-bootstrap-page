@@ -13,6 +13,8 @@ body {
     background-color: var(--pink);
 }
 
+/* Backgrounds */
+
 .bg-yellow {
     background: var(--yellow);
 }
@@ -37,19 +39,7 @@ body {
     background-color: var(--green);
 }
 
-.logo {
-    font-family: 'Tangerine', cursive;
-    color: var(--rust) !important;
-    font-size: 2em;
-    font-weight: 600;
-}
-
-.navbar-toggler {
-    border: transparent;
-}
-.navbar-toggler:focus {
-    outline: none;
-}
+/* Buttons */
 
 .btn-custom {
     background-color: var(--lightpink);
@@ -63,12 +53,12 @@ body {
     color: var(--rust);
 }
 
-.btn a{
+.btn a {
     color: var(--rust);
     text-decoration: none;
 }
 
-.btn a:focus{
+.btn a:focus {
     color: var(--rust);
     text-decoration: none;
 }
@@ -76,6 +66,70 @@ body {
 .icon {
     color: var(--pink);
 }
+
+.bi-arrow-up {
+    color: var(--rust);
+}
+
+/* Navbar */
+
+.logo {
+    font-family: 'Tangerine', cursive;
+    color: var(--rust) !important;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.navbar-toggler {
+    border: transparent;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+}
+
+/* About page */
+
+.about p {
+    color: var(--pink);
+}
+
+/* Contact page */
+
+.contact h3, h4, li {
+    color: var(--rust);
+}
+
+.contact-form {
+    color: var(--pink);
+}
+
+.input {
+    border: none !important;
+    border-bottom: 1px solid var(--pink) !important;
+    background-color: transparent;
+    border-radius: 0 !important;
+}
+
+.input-text {
+    border: 1px solid var(--pink) !important;
+}
+
+.input:focus {
+    border: 1px solid transparent !important;
+    background-color: transparent !important;
+    box-shadow: none;
+}
+
+.input:focus-within {
+    border-bottom: 1px solid var(--pink) !important;
+}
+
+.input-text:focus-within {
+    border: 1px solid var(--pink) !important;
+}
+
+/* Footer */
 
 .footer-link {
     color: var(--lightpink);
@@ -93,44 +147,4 @@ footer h5 {
 
 footer li, p {
     color: var(--lightpink);
-}
-
-.bi-arrow-up {
-    color: var(--rust);
-}
-
-.about p{
-    color: var(--pink);
-}
-
-.contact h3, h4,li {
-    color: var(--rust);
-}
-
-.contact-form{
-    color: var(--pink);
-}
-
-.input{
-    border: none !important;
-    border-bottom: 1px solid var(--pink) !important;
-    background-color: transparent;
-    border-radius: 0 !important;
-}
-.input-text{
-    border: 1px solid var(--pink) !important;
-}
-
-.input:focus{
-    border: 1px solid transparent !important;
-    background-color: transparent !important;
-    box-shadow: none;
-}
-
-.input:focus-within{
-    border-bottom: 1px solid var(--pink) !important;
-}
-
-.input-text:focus-within{
-    border: 1px solid var(--pink) !important;
 }
